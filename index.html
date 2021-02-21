@@ -12,8 +12,20 @@
                 color: grey;
                 font-style: italic;
             }
-
-
+            .kopriva{
+    			animation:blinkingText 1.2s infinite;
+    			text-align: center;
+    			text-decoration: underline;
+    			font-size: 40px;
+    			font-weight: bold;
+			}
+			@keyframes blinkingText{
+    			0%{     color: red;    }
+    			49%{    color: red; }
+    			60%{    color: transparent; }
+    			99%{    color:transparent;  }
+    			100%{   color: red;    }
+			}
 
 
         </style>
@@ -22,6 +34,7 @@
         <h1>Work in progress!</h1>
         <p id="patience">This site will be updated and reworked once I get the needed knowledge to do so. Have a patience, dear.</p>
         <img src="pics/doge.jpg" alt"Doge meme pic">
-        <p><br><br><br><br><br><br><br><br><br><br><br><br><br>WTF Kopřivo, říkal jsem ti, že se nemáš koukat teď! Tě reportnu!</p>
+        <p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+        <p class="kopriva">WTF KOPŘIVO, ŘÍKAL JSEM TI, ŽE SE SEM NEMÁŠ KOUKAT!!!</p>
     </body>
 </html>
